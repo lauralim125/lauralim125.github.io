@@ -151,7 +151,7 @@ fieldset {
 }
 
 .bg1 {
-  background: url(Assets/img/bg.svg) no-repeat; 
+  background: url(assets/img/bg.svg) no-repeat; 
   background-size: contain;
 }
 
