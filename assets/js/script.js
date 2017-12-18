@@ -2,21 +2,30 @@ var curStatement = 0;
 
 var statements = [
 	{
-		"msg": "I'm a California born and raised artist with a BFA in Art Practice from the University of California, Berkeley.",
+		"msg": " I recently graduated from UC Berkeley with a B.F.A in Art Practice. California born and raised, I got into Berkeley in 2013 but was unsure of what I wanted to pursue. By 2014, I ended up choosing art. I was not too sure what I was getting myself into, but at the least, I knew I desired a space where trial and error would be welcomed and constant creation and re-creation would be encouraged.",
 		"img": "grad.svg",
 		"bgColor": "#eeebe0"
 
 	},
 	{
-		"msg": "I came to Berkeley not knowing what I wanted to do, but was drawn to art due to its experimentative nature.",
-		"img": "bg.svg",
-		"bgColor": "#6f7783"
+		"msg": "Since that very day I made my choice, it's been a journey adapting to the Bay Area's cultural landscape and core values of Berkeley. My practice mainly had to do with exposing myself to different mediums and recognizing when and why to use them. ",
+		"img": "2nd grad.svg",
+		"bgColor": "#95a6aa"
 
 	},
 	{
-		"msg": "My current interests lie in on- site sketching, and combining illustration and photography.",
+		"msg": "In the beginning, I gravitated towards installation work that was very personalized and catered towards my fellow peers and professors. I felt that connection and genuine relationships could be fostered and appreciated more through interactive pieces.",
 		"bgColor": "#ffffff"
 	},
+	{
+		"msg": "My practice then sort of took on a bit of a social experiment quality. I made works that made people interact with each other and would in turn bring out characteristics and traits that were unique to each individual. Along the way, I also spent time allowing pieces to take on their own shape and be in control of the process more so than me trying to steer them towards an end goal.",
+		"bgColor": "#ffffff"
+	},
+	{
+		"msg": "I think the most pivotal point in my practice has been when I decided I wanted to hear more about how art was affecting communities and it still continues to be something I'm interested in. It came to my attention that art actually meant so many different things to different people and I continued to want to hear and share these type of stories with others whether that meant through video or drawing. Currently I am looking for a job and shall keep you all updated on the hopefully many future art projects I shall be working on!",
+		"bgColor": "#ffffff"
+	},
+	
 	
 
 ];
@@ -115,6 +124,19 @@ $(".img4").click(function() {
   $("#popup-image-container img").attr("src", "assets/img/figure 2.jpg");
   $("body").css("overflow", "hidden");
   $("#popup-text").text("I was doubtful about this figure drawing process, but by the end of the semester I was able to draw figures like this with charcoal and mixed media. In class, we ranged from doing three quick poses in several seconds to 30 minute extended studies. It was definitely a learning experience and I would go to a figure drawing session again.")
+   $("#lightbox").show()
+})
+
+$("#overlay").click(function() {
+  console.log("hide");
+  $("body").css("overflow", "scroll");
+  $("#lightbox").hide();
+})
+$(".img7").click(function() {
+  
+  $("#popup-image-container img").attr("src", "assets/img/figure 2.jpg");
+  $("body").css("overflow", "hidden");
+  $("#popup-text").text("Day to Day, 2017. Variou Sketchbook Papers, fine point black pen,pen, water color,pencil, colored pencils. 72 inches by 24 inches. I was inspired by New York Sketchbook Project to incorporate frequent sketching into my everyday routine. Doing so caused me to reflect on how non monumental yet important sketching can be to an artist's personal growth.")
    $("#lightbox").show()
 })
 
